@@ -167,10 +167,10 @@ Events.on(engine, "collisionStart", (event)  => {
     if (newFruit === FRUITS[10]) {
         num_samika++;
       }
-
-      if (num_samika === 2) {
+      // 수박 2개 나오면 승리
+      if (num_samika === 1) {
         setTimeout(() => {
-        alert("Win");
+        alert("Win! 쌈에게 인증샷을 보내세요");
       }, 1000);
 
     }

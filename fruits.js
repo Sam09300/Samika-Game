@@ -36,11 +36,11 @@ export const FRUITS = [
     radius: 177 / 2,
   },
   {
-    name: "09_melon",
+    name: "12_min",
     radius: 220 / 2,
   },
   {
-    name: "10_watermelon",
+    name: "11_sun",
     radius: 259 / 2,
   },
 ];
